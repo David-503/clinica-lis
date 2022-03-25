@@ -1,71 +1,77 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# LIS Sistema de Gestión para Mujeres Embarazadas
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Integrantes
 
-## About Laravel
+-   Acosta Beltrán, Wilfredo José - AB181924 | G01T
+-   Bonilla Avilés, David Alejandro - BA181927 | G01T
+-   Cruz González, José Roberto - CG181933 | G01T
+-   Garay Alvarado, Bryan Walberto - GA181935 | G01T
+-   Gutiérrez Solorzano, Henry Bryan - GS181939 | G01T
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Diseño UI
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+El proyecto tiene sus diseños y pantallas echas previamente en Figma, puede acceder a este apartado por medio del siguiente enlace.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+[Ver diseño de las pantallas (Mockups) Figma -> Prototipo 📱](https://www.figma.com/proto/An2nYNH1XZ1NRKS2ncoCYL/StockApp?page-id=1%3A2&node-id=1%3A2&viewport=367%2C48%2C0.19&scaling=min-zoom)
 
-## Learning Laravel
+[Ver diseño de las pantallas (Mockups) Figma -> Editable 🎨](https://www.figma.com/file/An2nYNH1XZ1NRKS2ncoCYL/StockApp?node-id=1%3A2)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Manuales del Aplicativo
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
+En los siguientes enlaces podrá visualizar los manuales técnico y del usuario, cada uno desarrollado con la herramienta de canvas.
 
-## Laravel Sponsors
+[Ver manual técnico ->](https://drive.google.com/file/d/1dxt2Y0ofLmgNkeB9BM36vbCm5hn6o_41/view)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+[Ver manual de usuario ->](https://drive.google.com/file/d/1oGrzUatKzEddpm3xah02FgKqTSWEhBrI/view)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
+## Video del funcionamiento del aplicativo
 
-## Contributing
+El siguiente video dura 5 minutos y explica brevemente sobre el funcionamiento de la aplicación sobre lo que se tiene actualmente y lo que hace falta por desarrollar:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+[Ver video ->](https://www.youtube.com/watch?v=Fus4FrcdkIs)
 
-## Security Vulnerabilities
+## Descripción del proyecto
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+El proyecto se basa en brindar servicios en línea para una clínica especializada en el trato y cuido de mujeres embarazadas, mejorando y agilizando sub-procesos con el objetivo de hacer más interactivo el sistema.
+Que el paciente interactúe directamente con su tratamiento y su doctor, es vital para realizar de manera satisfactoria la atención médica.
 
-## License
+La aplicación web contará con las siguientes características
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1.	Creación de citas
+Se contemplara el desarrollo de un módulo de citas, donde se dispondrá la capacidad de realizar las citas de forma más rápida y segura para el ciente, ya que no necesitará presentarse al lugar para realizar la cita, ni llamar por teléfono por desistir. Si el doctor encargado de la paciente puede reprogramar una cita esta será notificada al paciente de manera automática.
+
+2.	Administrar expedientes
+Creación del módulo de la administración de expedientes, donde todos los datos están digitalizados y con un buscador para reducir el tiempo de despliegue del expediente, esto permite reducir el tiempo de transporte del archivo y así brindar una mejor atención a las personas que necesitan atención médica.
+
+3.	Vista de agenda
+El doctor podrá visualizar su agenda correspondiente a las citas programadas en el sistema, para mejorar la forma en que se organiza y previsualizar todos sus eventos relacionados a la clínica a lo largo del tiempo.
+
+
+## Grupo de colaboración
+
+En el siguiente enlace se tiene acceso al grupo donde se lleva el control por medio de la tecnología SCRUM sobre los avances y gestión de tareas que se deben o se están haciendo.
+
+Donde se pueden destacar los siguientes roles:
+
+-   **Scrum Master**: Bryan Garay
+-   **Product Owner**: Doctores en general
+-   **Developer**: David Bonilla
+-   **Developer**: José Cruz
+-   **Developer**: Wilfredo Acosta
+-   **Developer**: Henry Gutierrez
+
+[Enlace al grupo de Trello ->](https://trello.com/b/OteVO5T0/stockapp)
+
+## Licencia implementada
+
+### Licencia del código
+
+El actual repositorio y todo el código que contendrá será manejado bajo la licencia _**Apache License 2.0**_ para que solamente puedan tener las patentes los propietarios del código.
+
+### Licencias Creative Commons
+
+La siguiente licencia autoriza la replicación del proyecto siempre y cuando se encuentre de la forma en que el autor lo entregue y no se permiten los usos comerciales de la misma a continuación se establece la licencia correspondiente:
+
+![Licencia Creative Commons](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+Esta obra está bajo una [Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.](http://creativecommons.org/licenses/by-nc-sa/4.0/)
