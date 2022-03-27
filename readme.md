@@ -8,6 +8,10 @@
 -   Garay Alvarado, Bryan Walberto - GA181935 | G01T
 -   Gutiérrez Solorzano, Henry Bryan - GS181939 | G01T
 
+## Documento Segunda Fase del Proyecto
+
+[Link del pdf](https://drive.google.com/file/d/1L38kjg-M5YCxeM9bOrjf7zaCV1PJj8zZ/view?usp=sharing)
+
 ## Diseño UI
 
 El proyecto tiene sus diseños y pantallas echas previamente en Figma, puede acceder a este apartado por medio del siguiente enlace.
