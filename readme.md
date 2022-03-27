@@ -26,13 +26,13 @@ En los siguientes enlaces podrá visualizar los manuales técnico y del usuario,
 
 [Ver manual técnico ->](https://www.canva.com/design/DAE8CqdMnEA/8W38ytP2VRJi6qmfTINGMA/view?utm_content=DAE8CqdMnEA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
 
-[Ver manual de usuario ->](https://drive.google.com/file/d/1oGrzUatKzEddpm3xah02FgKqTSWEhBrI/view)
+[Ver manual de usuario ->](https://www.canva.com/design/DAE8AQwyc-A/JBRWIxo_zgMcRGVwLKV5KA/view?utm_content=DAE8AQwyc-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Video del funcionamiento del aplicativo
 
 El siguiente video dura 5 minutos y explica brevemente sobre el funcionamiento de la aplicación sobre lo que se tiene actualmente y lo que hace falta por desarrollar:
 
-[Ver video ->](https://www.youtube.com/watch?v=Fus4FrcdkIs)
+[Ver video ->](https://youtu.be/W2xMB-Hbq2A)
 
 ## Descripción del proyecto
 
