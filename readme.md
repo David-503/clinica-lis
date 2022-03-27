@@ -20,7 +20,7 @@ El proyecto tiene sus diseños y pantallas echas previamente en Figma, puede acc
 
 En los siguientes enlaces podrá visualizar los manuales técnico y del usuario, cada uno desarrollado con la herramienta de canvas.
 
-[Ver manual técnico ->](https://drive.google.com/file/d/1dxt2Y0ofLmgNkeB9BM36vbCm5hn6o_41/view)
+[Ver manual técnico ->](https://www.canva.com/design/DAE8CqdMnEA/8W38ytP2VRJi6qmfTINGMA/view?utm_content=DAE8CqdMnEA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
 
 [Ver manual de usuario ->](https://drive.google.com/file/d/1oGrzUatKzEddpm3xah02FgKqTSWEhBrI/view)
 
