@@ -18,6 +18,7 @@ class citasController extends Controller
             if (!($request->filled(['Date', 'SelectedPatientDui', 'SelectedDoctorDui', 'InitialHour', 'FinalHour']))) {
                 return response('Datos incompletos', 400);
             }
+            //Agregando validacion del formato del dui
             $validator = Validator::make($request->all(), [
                 'SelectedPatientDui' => 'required|regex:/^[0-9]{8}-[0-9]$/',
                 'SelectedDoctorDui' => 'required|regex:/^[0-9]{8}-[0-9]$/'

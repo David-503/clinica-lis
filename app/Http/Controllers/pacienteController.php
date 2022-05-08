@@ -32,6 +32,7 @@ class pacienteController extends Controller
                 $date = $date. $date2[$i];
                 }else{ $i =strlen($date2);  }
             }
+            //Agregando validacion del formato del dui, correo elextronico y telefono
             $validator= Validator::make($request->all(),[
                 'dui' => 'required|regex:/^[0-9]{8}-[0-9]$/',
                 'phone' => 'max:9|regex:/^[762][0-9]{3}-[0-9]{4}$/',

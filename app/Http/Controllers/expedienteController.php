@@ -21,6 +21,7 @@ class expedienteController extends Controller
                 return response('Esta Paciente ya posee un expediente',400);
             }
 
+            //Informacion de identificación del expediente
             $identificacion = new IdentificationFile;
             $identificacion->gender = $request->identificacion["gender"];
             $identificacion->age = $request->identificacion["age"];
@@ -40,6 +41,7 @@ class expedienteController extends Controller
             $identificacion->inscription_date = date("m/d/Y");
             $identificacion->save();
 
+            //Información medica del expediente
             $data = new InformationDataFile;
             $data->highrisk_pregnancy = $request->datos["highrisk_pregnancy"];
             $data->location = $request->datos["location"];
