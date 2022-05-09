@@ -12,13 +12,14 @@ use \Illuminate\Database\QueryException;
 
 class expedienteController extends Controller
 {
-    public function crearPost (Request $request){
-        try{
-            if(!isset($request->identificacion["gender"],$request->identificacion["age"],$request->identificacion["occupation"],$request->identificacion["father_name"],$request->identificacion["mother_name"],$request->identificacion["attendant_name"],$request->identificacion["attendant_phone"],$request->identificacion["attendant_address"],$request->identificacion["provided_information_name"],$request->identificacion["provided_information_relationship"],$request->identificacion["provided_information_dui"],$request->identificacion["take_information_name"],$request->datos["location"],$request->datos["ethnic"],$request->datos["last_weight"],$request->datos["size"],$request->dui)){
-                return response('Datos incompletos',400);
+    public function crearPost(Request $request)
+    {
+        try {
+            if (!isset($request->identificacion["gender"], $request->identificacion["age"], $request->identificacion["occupation"], $request->identificacion["father_name"], $request->identificacion["mother_name"], $request->identificacion["attendant_name"], $request->identificacion["attendant_phone"], $request->identificacion["attendant_address"], $request->identificacion["provided_information_name"], $request->identificacion["provided_information_relationship"], $request->identificacion["provided_information_dui"], $request->identificacion["take_information_name"], $request->datos["location"], $request->datos["ethnic"], $request->datos["last_weight"], $request->datos["size"], $request->dui)) {
+                return response('Datos incompletos', 400);
             }
-            if(Patient::find($request->dui) != null){
-                return response('Esta Paciente ya posee un expediente',400);
+            if (Patient::find($request->dui) != null) {
+                return response('Esta Paciente ya posee un expediente', 400);
             }
 
             $identificacion = new IdentificationFile;
@@ -37,7 +38,7 @@ class expedienteController extends Controller
             $identificacion->provided_information_dui = $request->identificacion["provided_information_dui"];
             $identificacion->couple_provided_information_name = $request->identificacion["couple_provided_information_name"];
             $identificacion->take_information_name = $request->identificacion["take_information_name"];
-            $identificacion->inscription_date = date("m/d/Y");
+            $identificacion->inscription_date = date("Y-m-d");
             $identificacion->save();
 
             $data = new InformationDataFile;
@@ -59,7 +60,7 @@ class expedienteController extends Controller
             $data->nephropathy = $request->datos["nephropathy"];
             $data->violence = $request->datos["violence"];
             $data->VIH = $request->datos["VIH"];
-            $data->end_of_last_pregnancy = $request->datos["end_of_last_pregnancy"];
+            $data->end_of_last_pregnancy = explode('T', $request->datos["end_of_last_pregnancy"])[0];
             $data->planned_pregnancy = $request->datos["planned_pregnancy"];
             $data->contraceptives = $request->datos["contraceptives"];
             $data->last_weight = $request->datos["last_weight"];
@@ -79,21 +80,21 @@ class expedienteController extends Controller
             $codigo = "";
             $parte1 = "";
             $parte2 = "";
-            $aleatorio = mt_rand(0,9999);
+            $aleatorio = mt_rand(0, 9999);
             $parte1 .= $aleatorio;
-            while(strlen($parte1) != 4){
-                $string = '0'; 
-                $position = '0'; 
-                $parte1 = substr_replace( $parte1, $string, $position, 0 );
+            while (strlen($parte1) != 4) {
+                $string = '0';
+                $position = '0';
+                $parte1 = substr_replace($parte1, $string, $position, 0);
             }
-            $aleatorio = mt_rand(0,99);
+            $aleatorio = mt_rand(0, 99);
             $parte2 .= $aleatorio;
-            while(strlen($parte2) != 2){
-                $string = '0'; 
-                $position = '0'; 
-                $parte2 = substr_replace( $parte2, $string, $position, 0 );
+            while (strlen($parte2) != 2) {
+                $string = '0';
+                $position = '0';
+                $parte2 = substr_replace($parte2, $string, $position, 0);
             }
-            $codigo = $parte1."-".$parte2;
+            $codigo = $parte1 . "-" . $parte2;
 
             $file = new File;
             $file->id_file = $codigo;
@@ -109,16 +110,17 @@ class expedienteController extends Controller
             $patient->save();
 
 
-            return response('cita agregada con exito',200);
-        }catch(QueryException $ex){
-            return response('Ocurrio algun error: '. $ex->getMessage() ,400);
+            return response('cita agregada con exito', 200);
+        } catch (QueryException $ex) {
+            return response('Ocurrio algun error: ' . $ex->getMessage(), 400);
         }
     }
-    public function fileByPatient(Request $request){
+    public function fileByPatient(Request $request)
+    {
         $dui = $request->dui;
         $patient = Patient::find($dui);
-        if($patient == null){
-            return response('Esta Paciente ya posee un expediente',400);
+        if ($patient == null) {
+            return response('Esta Paciente ya posee un expediente', 400);
         }
         $file = File::where('id_file', $patient->id_file)->with('informationDatum')->with('identificationFile')->get();
         return $file;

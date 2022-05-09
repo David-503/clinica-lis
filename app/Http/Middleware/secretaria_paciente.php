@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Auth;
 
 use Closure;
 
-class secretaria
+class secretaria_paciente
 {
     /**
      * Handle an incoming request.
@@ -17,11 +17,11 @@ class secretaria
     public function handle($request, Closure $next)
     {
         if(!Auth::guest()){
-            if(Auth::user()->id_type_user == 4){
+            if((Auth::user()->id_type_user == 5) || (Auth::user()->id_type_user == 4)){
             return $next($request);
 
             }
         }
-            return redirect()->route('login');
+            return redirect()->route('logout');
     }
 }
