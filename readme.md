@@ -8,27 +8,31 @@
 -   Garay Alvarado, Bryan Walberto - GA181935 | G01T
 -   Gutiérrez Solorzano, Henry Bryan - GS181939 | G01T
 
+## Documento Segunda Fase del Proyecto
+
+[Link del pdf](https://drive.google.com/file/d/1L38kjg-M5YCxeM9bOrjf7zaCV1PJj8zZ/view?usp=sharing)
+
 ## Diseño UI
 
 El proyecto tiene sus diseños y pantallas echas previamente en Figma, puede acceder a este apartado por medio del siguiente enlace.
 
-[Ver diseño de las pantallas (Mockups) Figma -> Prototipo 📱](https://www.figma.com/proto/An2nYNH1XZ1NRKS2ncoCYL/StockApp?page-id=1%3A2&node-id=1%3A2&viewport=367%2C48%2C0.19&scaling=min-zoom)
+[Ver diseño de las pantallas (Mockups) Figma -> Prototipo 📱](https://www.figma.com/proto/LTLEMh7efEJr7cGAUe5mRr/Clinica?node-id=1265%3A79903&scaling=min-zoom&page-id=1224%3A40369)
 
-[Ver diseño de las pantallas (Mockups) Figma -> Editable 🎨](https://www.figma.com/file/An2nYNH1XZ1NRKS2ncoCYL/StockApp?node-id=1%3A2)
+[Ver diseño de las pantallas (Mockups) Figma -> Editable 🎨](https://www.figma.com/file/LTLEMh7efEJr7cGAUe5mRr/Clinica?node-id=1224%3A40369)
 
 ## Manuales del Aplicativo
 
 En los siguientes enlaces podrá visualizar los manuales técnico y del usuario, cada uno desarrollado con la herramienta de canvas.
 
-[Ver manual técnico ->](https://drive.google.com/file/d/1dxt2Y0ofLmgNkeB9BM36vbCm5hn6o_41/view)
+[Ver manual técnico ->](https://www.canva.com/design/DAE8CqdMnEA/8W38ytP2VRJi6qmfTINGMA/view?utm_content=DAE8CqdMnEA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
 
-[Ver manual de usuario ->](https://drive.google.com/file/d/1oGrzUatKzEddpm3xah02FgKqTSWEhBrI/view)
+[Ver manual de usuario ->](https://www.canva.com/design/DAE8AQwyc-A/JBRWIxo_zgMcRGVwLKV5KA/view?utm_content=DAE8AQwyc-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Video del funcionamiento del aplicativo
 
 El siguiente video dura 5 minutos y explica brevemente sobre el funcionamiento de la aplicación sobre lo que se tiene actualmente y lo que hace falta por desarrollar:
 
-[Ver video ->](https://www.youtube.com/watch?v=Fus4FrcdkIs)
+[Ver video ->](https://youtu.be/W2xMB-Hbq2A)
 
 ## Descripción del proyecto
 
